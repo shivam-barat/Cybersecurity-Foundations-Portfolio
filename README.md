@@ -1,43 +1,46 @@
-# Cybersecurity-Foundations-Portfolio
-# Comprehensive Prior Work Portfolio: Cybersecurity Engineering Foundations
+# My Cybersecurity Learning Journey & Prior Work
 
-## Executive Summary
-This repository serves as official evidence of technical prior work, applied problem-solving, and foundational competency in computer systems, networking, and binary security analysis. Prepared specifically for the admissions evaluation committee for the **Bachelors in Cybersecurity (B.Cyber.) program at IIT Kanpur (2026)**.
-
----
-
-## 🛠️ Technical Competency Matrix & Evidence
-
-### 1. Binary Exploitation & Linux Internals (picoCTF)
-* **Validated Milestones:** Completed **28 modules** spanning General Skills and foundational binary exploitation.
-* **Core Concepts Mastered:** 
-    * **Linux CLI & Script Automation:** Proficient in filesystem navigation, standard streams redirection (`>`, `>>`), process management, and rapid patterns extraction using pipelines (`grep`, `strings`, `cat`).
-    * **Memory Defect Mechanics:** Analyzed and actively simulated standard buffer overflow conditions (e.g., `buffer overflow 0`) targeting unsafe functions like `gets()`. Developed a conceptual understanding of stack structure alignment, crash handlers (`SIGSEGV`), and memory padding.
-* **Proof of Work:** `verification/picoctf_progress.png`
-
-### 2. Theoretical Frameworks & System Administration (Cisco Networking Academy)
-* **Validated Milestones:** Successfully cleared both the **Cisco Introduction to Cybersecurity** and **Cisco Linux Unhatched** professional tracks.
-* **Core Concepts Mastered:** 
-    * **Network & Information Security:** Comprehensive knowledge of basic threat vectors, the anatomy of malware, integrity verification using cryptographic hash functions (MD5, SHA-256), and core security paradigms (CIA Triad).
-    * **Linux System Administration:** Practical command over low-level Linux administration, user permission configurations (`chmod`), file ownership, and automation utilities.
-* **Proof of Work Artifacts:** 
-    * `certificates/cisco_intro_cybersecurity.pdf`
-    * `certificates/cisco_linux_unhatched.pdf`
-
-### 3. Practical Lab Diagnostics (TryHackMe)
-* **Validated Milestones:** Engagement with targeted rooms to validate foundational system mapping.
-* **Core Concepts Mastered:** Basic network reconnaissance mechanics, mapping of web application protocols (HTTP Request/Response lifecycles), and cryptographic implementations.
-* **Proof of Work:** `verification/tryhackme_profile.png`
+## About Me
+Self-motivated learner with **no prior formal experience** in cybersecurity. This repository is a collection of my hands-on practice, completed certifications, and lab progress over the last 2 weeks. I built this portfolio to show my preparation and genuine interest for the **Bachelors in Cybersecurity (B.Cyber.) program at IIT Kanpur**.
 
 ---
 
-## 📈 Technical Self-Assessment & Scripting Gap Analysis
+## 🛠️ Active Learning Progress (Platform-wise)
 
-As part of an engineering methodology, I believe in identifying and systematically addressing limitations:
+### 1. picoCTF
+* **Status:** Completed 26 modules (mostly General Skills and basic Binary Exploitation) and actively learning.
+* **What I learnt:** * How to use the Linux terminal comfortably (navigating folders using `ls`, `pwd`, `cd`; using `cat`, `grep`, or `strings` to find hidden words inside massive text files or compiled programs; and using `sudo` to execute commands as another user).
+  * The absolute basics of how memory works, how programs crash, and how a basic buffer overflow can be triggered using unsafe functions like `gets()`.
+* **Proof:** `verification/picoctf_progress.png`
 
-* **Current Scripting Baseline:** I possess intermediate proficiency in basic Python scripting structures. I can successfully read code logic, dissect security checking logic (such as reverse-engineering user-hash verification arrays in security keygen challenges), and parse manual CLI operations.
-* **Identified Growth Gaps:** I encounter scaling friction when required to construct fully automated network/exploitation scripts entirely from scratch without an interactive shell framework. 
-* **Mitigation Strategy:** I am currently training to bridge this gap prior to the campus evaluation by breaking down expert walk-through scripts line-by-line, mastering native Python file handling blocks (`with open()`), and optimizing string parsing constraints to build robust automation tooling independently.
+### 2. Cisco Networking Academy
+* **Status:** Completed **Introduction to Cybersecurity** and **Cisco Linux Unhatched**.
+* **What I learnt:** * Foundational security theory, common cyber attacks, how malware works, and cryptography (hashing algorithms like MD5 and SHA-256 to protect data).
+  * Basic Linux system management, including how to handle file permissions (`chmod`), changing ownership of files (`chown`), managing user accounts (`passwd` to change password), and using redirection operators (`>` to overwrite, `>>` to append).
+* **Proof:** `certificates/cisco_intro_cyber.pdf` and `certificates/cisco_linux_unhatched.pdf`
+
+### 3. TryHackMe
+* **Status:** Actively learning and practicing daily.
+* **What I learnt:** * Learnt and practiced networking concepts, web request structures (how browsers talk to servers), basic network scanning, introductory malware analysis, OSINT (Open Source Intelligence), and the basics of cloud security.
+  * Learnt the basics of **Burp Suite** to intercept web traffic and analyze live data packets.
+* **Proof:** `verification/tryhackme_profile.png`
+
+### 4. PortSwigger Web Security Academy
+* **Status:** Actively completing beginner-level labs right now.
+* **What I am practicing:** * **SQL Injection** (bypassing login forms)
+  * **Directory Traversal** (manipulating URLs to read restricted backend server files)
+  * **Command Injection** (forcing a website to run terminal commands)
+  * **API Testing** (inspecting and testing endpoints)
+* **What I learnt:** Developing a practical understanding of real-world web bugs. 
+* **Proof:** Screenshots of completed labs in `verification/portswigger/`
 
 ---
-*All credentials, dashboards, and source artifacts cited above are fully auditable and verified.*
+
+## 📈 My Current Coding Status & Honest Self-Assessment
+
+* **Comfortable with:** Python (Beginner), Java, HTML basics
+* **Building towards:** Writing full exploitation scripts from scratch (currently practicing by breaking down walkthroughs).
+* **My Plan:** I am spending the remaining days before the July 5 campus test watching walkthroughs, breaking down expert scripts line-by-line, and solving more CTFs so I can bridge this gap for the hackathon.
+
+---
+**All screenshots, certificates, and supporting files are uploaded in the respective folders for verification.**
